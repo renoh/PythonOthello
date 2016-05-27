@@ -106,27 +106,27 @@ def othello(bl_strategy, wh_strategy, boolPrint = True):
   print_board(board)
 
 
-print "comeco de jogo"
+print "start of the game"
 othello(random_strategy, random_strategy, False)
-print "fim de jogo"
+print "end of the game"
 
 
-#print "\ntestes constantes"
+#print "\ntests constants"
 #print all_direction
 #print empty, black, white, outer
 #print all_squares
 
-#print "\ntestes funcao name_of"
+#print "\ntests function name_of"
 #print name_of(empty)
 #print name_of(black)
 #print name_of(white)
 #print name_of(outer)
 
-#print "\ntestes funcao opponent"
+#print "\ntests function opponent"
 #print name_of(opponent(black))
 #print name_of(opponent(white))
 
-#print "\ntestes funcao initial_board"
+#print "\ntests function initial_board"
 #board = initial_board()
 #board[1] = 99
 #board2 = initial_board()
@@ -136,7 +136,7 @@ print "fim de jogo"
 #print board2
 #print board3
 
-#print "\ntestes funcao print_board"
+#print "\ntests function print_board"
 #board = initial_board()
 #print_board(board)
 #board[11] = black
@@ -148,14 +148,14 @@ print "fim de jogo"
 #board[14] = black
 #print_board(board)
 
-#print "\ntestes funcao valid_p"
+#print "\ntests function valid_p"
 #print valid_p(11)
 #print valid_p(20)
 #print valid_p(200)
 #print valid_p('a')
 #print valid_p("a")
 
-#print "\ntestes funcao legal_p, would_flip, find_bracketing_piece"
+#print "\ntests function legal_p, would_flip, find_bracketing_piece"
 #board = initial_board()
 #print_board(board)
 #print "11 = " + str(legal_p(11, black, board))
@@ -165,13 +165,13 @@ print "fim de jogo"
 #print "76 = " + str(legal_p(76, black, board))
 #print "64 = " + str(legal_p(64, black, board))
 
-#print "\ntestes funcao make_move, make_flips"
+#print "\ntests function make_move, make_flips"
 #board = initial_board()
 #print_board(board)
 #make_move(65, black, board)
 #print_board(board)
 
-#print "\ntestes func any_legal_move next_to_play"
+#print "\ntests func any_legal_move next_to_play"
 #board = initial_board()
 #print_board(board)
 #print next_to_play (board, white)
@@ -188,7 +188,7 @@ print "fim de jogo"
 #print next_to_play (board, white)
 #print next_to_play (board, black)
 
-#print "\ntestes funcao get_move, legal_moves, random_strategy, human"
+#print "\ntests function get_move, legal_moves, random_strategy, human"
 #board = initial_board()
 #print legal_moves(black, board)
 #get_move(human, black, board)
